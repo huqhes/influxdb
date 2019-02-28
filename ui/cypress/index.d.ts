@@ -12,6 +12,7 @@ import {
   createTask,
   createVariable,
   createLabel,
+  shouldBeKindaEq,
 } from './support/commands'
 
 declare global {
@@ -29,6 +30,7 @@ declare global {
       getByInputName: typeof getByInputName
       getByTitle: typeof getByTitle
       createLabel: typeof createLabel
+      shouldBeKindaEq: typeof shouldBeKindaEq
     }
   }
 }
